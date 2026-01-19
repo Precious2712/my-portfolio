@@ -122,5 +122,23 @@ export const projects = [
         ],
         link: "https://bank-transfer-kappa.vercel.app/",
         liveDemo: true
+    },
+    {
+        title: "Library Books Mobile App",
+        subtitle: "React Native (Expo) Mobile Application",
+        description:
+            "A mobile library management application built with React Native and Expo. Features user authentication (sign up & sign in) using Firebase Authentication and persistent data storage using Firebase Realtime Database. Designed with a clean, scalable component structure and predictable state management.",
+        impact:
+            "Demonstrates mobile-first development, real-world authentication flows, and cloud-backed data persistence in a production-style React Native application.",
+        technologies: [
+            "React Native",
+            "Expo",
+            "Firebase Authentication",
+            "Firebase Realtime Database",
+            "TypeScript",
+        ],
+        link: "https://expo.dev/accounts/moon_light12/projects/library-books/updates/d55ee49f-0654-4ffb-a959-05e52e49f4e4",
+        liveDemo: true,
     }
+
 ];
