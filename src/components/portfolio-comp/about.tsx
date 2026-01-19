@@ -2,6 +2,7 @@
 
 import { motion, type Variants } from "framer-motion"
 import { CheckCircle2 } from "lucide-react"
+import { WhatIDeliverAccordion } from "./hightlight-accordion"
 
 export function About() {
   const containerVariants: Variants = {
@@ -27,15 +28,8 @@ export function About() {
     },
   }
 
-  const highlights = [
-    "Architected and deployed 8+ full-stack applications serving real users",
-    "Engineered real-time communication systems reducing latency by 100ms+",
-    "Built product ordering systems processing 500+ transactions with 99.9% accuracy",
-    "Optimized database queries improving load times by 40%+",
-  ]
-
   return (
-    <section id="about" className="py-14 bg-card/50">
+    <section id="about" className="py-6 bg-card/50">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           variants={containerVariants}
@@ -44,7 +38,7 @@ export function About() {
           viewport={{ once: true, margin: "-100px" }}
           className="space-y-10"
         >
-          
+
           <motion.div variants={itemVariants}>
             <h2 className="text-3xl decoration-blue-900 hover:text-primary hover:underline underline-offset-4 transition-all duration-200 md:text-4xl">About Me</h2>
             <motion.div
@@ -55,30 +49,30 @@ export function About() {
             />
           </motion.div>
 
-          
+
           <motion.div
             variants={itemVariants}
             className="grid md:grid-cols-2 gap-10"
           >
             <div className="space-y-4 text-gray-600 font-sans font-bold">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a results-driven{" "}
-                <span className="font-semibold text-foreground">
-                  Full Stack Developer
-                </span>{" "}
-                with a proven track record of delivering scalable web solutions
-                that drive measurable business impact.
+                I am a dedicated Full Stack Developer with a strong foundation in building end-to-end web applications. My expertise spans frontend frameworks like React and Next.js, and backend technologies including Node.js, Express, and MongoDB.
+                I am passionate about crafting solutions that are not just functional, but also efficient, scalable, and delightful to use.
               </p>
 
               <p className="text-base text-muted-foreground leading-relaxed">
-                Specialized in building real-time applications, RESTful APIs, and
-                responsive user interfaces using modern JavaScript frameworks.
-                Currently building features at{" "}
-                <span className="font-semibold text-foreground">
-                  Elonatech
-                </span>{" "}
-                with a focus on production-quality code and zero-downtime
-                deployments.
+                I have worked on real-world projects that showcase my ability to:
+
+                Build dynamic user interfaces and responsive layouts
+
+                Design secure RESTful APIs and implement authentication flows
+
+                Structure databases for performance and scalability
+
+                Deploy applications to platforms like Vercel and Render
+
+                I believe in writing clean, maintainable code, and solving problems through thoughtful design and continuous learning.
+                When I am not coding, I am learning new tools, exploring cloud services, or building personal projects that sharpen my skills.
               </p>
             </div>
 
@@ -97,7 +91,10 @@ export function About() {
                   "Nest.js",
                   "Render",
                   "Node-mailer",
-                  "Express.js"
+                  "Express.js",
+                  "React-native",
+                  "Tailwind CSS",
+                  "Firebase"
                 ].map((skill) => (
                   <span
                     key={skill}
@@ -120,38 +117,12 @@ export function About() {
             </motion.div>
           </motion.div>
 
-          
-          <motion.div variants={itemVariants} className="space-y-4">
-            <h3 className="text-xl font-semibold text-foreground">
-              What I Deliver
-            </h3>
 
-            <div className="grid md:grid-cols-2 gap-4">
-              {highlights.map((highlight, index) => (
-                <motion.div
-                  key={index}
-                  variants={itemVariants}
-                  className="
-                    flex gap-3 p-4
-                    bg-background/60 backdrop-blur
-                    border border-border
-                    rounded-lg
-                    transition-all duration-300
-                    hover:-translate-y-1
-                    hover:shadow-lg hover:shadow-primary/10
-                    hover:border-primary/40
-                  "
-                >
-                  <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                  <p className="text-sm text-gray-600 font-sans font-bold">
-                    {highlight}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
+          <motion.div variants={itemVariants} className="space-y-4">
+            <WhatIDeliverAccordion />
           </motion.div>
 
-          
+
           <motion.div variants={itemVariants} className="pt-6">
             <p className="text-base text-muted-foreground mb-4">
               Looking for opportunities in Full Stack Development, Backend
@@ -210,7 +181,7 @@ export function About() {
             <article className="space-y-3">
               <div>
                 <p className="font-semibold">Full Stack Developer</p>
-                <p className="text-sm text-muted-foreground">Elonatech, Lagos, Nigeria • 2025 – Present</p>
+                <p className="text-sm text-muted-foreground">Elonatech, Lagos, Nigeria • 2025  Present</p>
               </div>
 
               <motion.ul

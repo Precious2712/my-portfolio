@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import { motion, type Variants } from "framer-motion"
-import Image from "next/image"
 
 export function Hero() {
   const containerVariants: Variants = {
@@ -58,11 +57,10 @@ export function Hero() {
             variants={itemVariants}
             className="text-base leading-relaxed text-gray-500 mb-8 font-sans font-bold"
           >
-            I build scalable, user-centric web applications that solve real-world
-            problems. With expertise in React, Next.js, Node.js, and MongoDB, I
-            deliver production-ready platforms. Currently at Elonatech, driving
-            critical bug fixes and implementing full-stack features with zero
-            production impact.
+            I am a passionate and results-oriented Full Stack Developer specializing in building scalable web applications that solve real-world problems and drive business impact. With hands-on experience in modern JavaScript technologies, 
+            I deliver robust, production-ready solutions — from intuitive front-end experiences to secure and performant backend services.
+            I have successfully architected and deployed multiple full-stack applications, including e-commerce platforms, real-time chat systems, dashboards, and secure wallet transfer systems. My focus is always on clean code, maintainable architecture, and fast deployment cycles.
+            I thrive in collaborative environments and I am open to roles in Full Stack, Frontend, or Backend Engineering where I can contribute to meaningful products and grow with high-impact teams.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex gap-4">
@@ -86,39 +84,7 @@ export function Hero() {
           </motion.div>
         </div>
 
-        <motion.div
-          className="hidden md:block"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{
-            opacity: 1,
-            y: [0, -20, 0],
-          }}
-          transition={{
-            opacity: { duration: 0.8 },
-            y: {
-              duration: 4,
-              repeat: Infinity,
-              ease: "easeInOut", 
-            },
-          }}
-        >
-          <Image
-            className="
-    w-[320px] h-80
-    aspect-square
-    rounded-full
-    object-cover
-    bg-linear-to-br from-primary/20 to-accent/20
-    border border-primary/30
-    shadow-xl
-  "
-            src="https://res.cloudinary.com/dcf4rwij3/image/upload/v1766777345/user-profile-pictures/1766777344729-pp%40-869661079.jpg"
-            alt="Precious Odumirin"
-            width={320}
-            height={320}
-          />
-
-        </motion.div>
+        
       </motion.div>
     </section>
   )

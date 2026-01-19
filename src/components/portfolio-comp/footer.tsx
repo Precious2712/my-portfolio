@@ -14,7 +14,7 @@ export function Skills() {
         "HTML5",
         "CSS3",
         "Tailwind CSS",
-        "Bootstrap",
+        "React native",
       ],
     },
     {
