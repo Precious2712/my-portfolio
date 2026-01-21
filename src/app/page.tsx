@@ -1,6 +1,5 @@
 'use client';
 
-// import { Footer } from "@/components/portfolio-comp/footer"
 import { Contact } from "@/components/portfolio-comp/contact"
 import { Header } from "@/components/portfolio-comp/header";
 import { Hero } from "@/components/portfolio-comp/hero";

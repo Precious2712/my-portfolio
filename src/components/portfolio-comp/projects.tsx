@@ -26,11 +26,17 @@ export function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl hover:text-primary hover:underline underline-offset-4 transition-all duration-200 decoration-blue-900 font-sans">Featured Projects</h2>
-          <p className="text-gray-600 text-lg mt-3 font-sans">
-            Eight production-ready applications demonstrating full-stack expertise
+          <h2 className="text-3xl font-bold font-sans">
+            Selected Engineering Projects
+          </h2>
+
+          <p className="text-gray-600 text-lg mt-3 font-sans max-w-2xl">
+            A collection of production-ready applications built to solve real
+            problems — demonstrating frontend architecture, backend design,
+            authentication, real-time systems, and deployment decisions.
           </p>
         </motion.div>
+
         <motion.div
           className="grid md:grid-cols-2 gap-6"
           variants={containerVariants}

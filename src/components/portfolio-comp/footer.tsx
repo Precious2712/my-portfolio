@@ -19,7 +19,7 @@ export function Skills() {
     },
     {
       category: "Backend",
-      skills: ["Node.js", "Express.js", "NestJS", "RESTful APIs"],
+      skills: ["Node.js", "Express.js", "NestJS", "RESTful APIs", "Super-base"],
     },
     {
       category: "Databases & DevOps",
