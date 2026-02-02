@@ -48,14 +48,14 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         {project.description}
       </p>
 
-      <div className="mb-4 p-3 bg-background rounded border border-primary/20">
+      {/* <div className="mb-4 p-3 bg-background rounded border border-primary/20">
         <p className="text-sm font-semibold text-primary mb-1">
           Engineering Impact
         </p>
         <p className="text-sm text-foreground">
           {project.impact}
         </p>
-      </div>
+      </div> */}
 
       <div className="flex flex-wrap gap-2 mb-6">
         {project.technologies.map((tech) => (

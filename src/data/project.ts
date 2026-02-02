@@ -13,7 +13,7 @@ export const projects = [
             "Tailwind CSS",
             "TypeScript",
         ],
-        link: "https://expo.dev/@your-username/flight-app",
+        link: "https://expo.dev/artifacts/eas/vs6pZBPt6jaot2wJ2NrXxy.apk",
         liveDemo: true,
     },
 
