@@ -1,5 +1,23 @@
 export const projects = [
     {
+        title: "Book Flight",
+        subtitle: "Mobile Flight Booking Application",
+        description:
+            "Designed and built a mobile flight booking application allowing users to search routes, and manage bookings within a structured flow. The app focuses on clean UX, predictable state transitions, and mobile-first interactions.",
+        impact:
+            "Demonstrates real-world booking flows, authentication handling, and state-driven UI logic common in travel and aviation platforms.",
+        technologies: [
+            "React Native",
+            "Expo",
+            "Supabase Auth",
+            "Tailwind CSS",
+            "TypeScript",
+        ],
+        link: "https://expo.dev/@your-username/flight-app",
+        liveDemo: true,
+    },
+
+    {
         title: "CommerceFlow",
         subtitle: "Full-Stack E-Commerce System",
         description:
@@ -19,6 +37,7 @@ export const projects = [
         link: "https://product-ordering-webapp.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "Realtime Chat Engine",
         subtitle: "WebSocket-Powered Messaging",
@@ -36,6 +55,7 @@ export const projects = [
         link: "https://socket-io-frontend-teal.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "PeopleLinker",
         subtitle: "Social Networking Platform",
@@ -53,6 +73,7 @@ export const projects = [
         link: "https://social-five-iota.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "Daily Market",
         subtitle: "Frontend-Driven Commerce UI",
@@ -68,6 +89,7 @@ export const projects = [
         link: "https://e-commerce-teal-phi-72.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "JobTrack",
         subtitle: "Application Tracking Dashboard",
@@ -83,6 +105,7 @@ export const projects = [
         link: "https://job-dash-board-three.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "Elite Transfer Marketplace",
         subtitle: "Football Player Marketplace UI",
@@ -94,10 +117,10 @@ export const projects = [
             "Next.js",
             "React",
             "Tailwind CSS",
-            "Vercel"
+            "Vercel",
         ],
         link: "https://transfer-lac.vercel.app/home",
-        liveDemo: true
+        liveDemo: true,
     },
 
     {
@@ -117,6 +140,7 @@ export const projects = [
         link: "https://bank-transfer-kappa.vercel.app/",
         liveDemo: true,
     },
+
     {
         title: "Library Books Mobile App",
         subtitle: "React Native Mobile Application",
@@ -134,4 +158,4 @@ export const projects = [
         link: "https://expo.dev/accounts/moon_light12/projects/library-books/updates/d55ee49f-0654-4ffb-a959-05e52e49f4e4",
         liveDemo: true,
     },
-]
+];
