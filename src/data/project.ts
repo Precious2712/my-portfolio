@@ -1,5 +1,23 @@
 export const projects = [
     {
+        title: "Talk Flow — Conversational Chat Platform",
+        subtitle: "Real-Time Chat Interface Web Application",
+        description:
+            "A modern conversational web application that enables interactive message flow with a clean and responsive chat interface. Built with React and deployed on Vercel, focusing on seamless user interaction and UI performance.",
+        impact:
+            "Showcases conversational UI architecture, state-driven interaction design, and modern frontend deployment workflows.",
+        technologies: [
+            "React.js",
+            "Express.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+            "MongoDB"
+        ],
+        link: "https://talk-flow-ten.vercel.app/",
+        liveDemo: true,
+    },
+    {
         title: "Book Flight",
         subtitle: "Mobile Flight Booking Application",
         description:
@@ -138,24 +156,6 @@ export const projects = [
             "Vercel",
         ],
         link: "https://bank-transfer-kappa.vercel.app/",
-        liveDemo: true,
-    },
-
-    {
-        title: "Library Books Mobile App",
-        subtitle: "React Native Mobile Application",
-        description:
-            "Cross-platform mobile app with authentication and persistent data storage, built using React Native and cloud-hosted backend services.",
-        impact:
-            "Demonstrates mobile-first development and integration with cloud authentication and realtime data.",
-        technologies: [
-            "React Native",
-            "Expo",
-            "Firebase Auth",
-            "Firebase Database",
-            "TypeScript",
-        ],
-        link: "https://expo.dev/accounts/moon_light12/projects/library-books/updates/d55ee49f-0654-4ffb-a959-05e52e49f4e4",
         liveDemo: true,
     },
 ];
