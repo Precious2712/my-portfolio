@@ -36,6 +36,25 @@ export const projects = [
     },
 
     {
+        title: "AirSwift Travel Guide",
+        subtitle: "Interactive Flight Booking & Travel Platform",
+        description:
+            "A responsive travel guide and flight booking platform that lets users search flights, explore destinations, select seats. Features smart search, interactive seat maps, and digital boarding pass integration for a seamless travel experience.",
+        impact:
+            "Demonstrates advanced frontend interactions, real-time UI updates, and user-focused travel booking flows. Highlights skills in responsive design, data-driven interfaces, and travel-oriented UX patterns.",
+        technologies: [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "Vercel",
+            "TypeScript",
+            "Interactive UI Design"
+        ],
+        link: "https://travel-guide-nine-topaz.vercel.app/",
+        liveDemo: true,
+    },
+
+    {
         title: "CommerceFlow",
         subtitle: "Full-Stack E-Commerce System",
         description:
