@@ -31,10 +31,27 @@ export const projects = [
             "Tailwind CSS",
             "TypeScript",
         ],
-        link: "https://expo.dev/artifacts/eas/vs6pZBPt6jaot2wJ2NrXxy.apk",
+        link: "https://expo.dev/artifacts/eas/qnucGpahKDfzo5dRrDnbWp.apk",
         liveDemo: true,
     },
-
+    {
+        title: "Menu",
+        subtitle: "Mobile Cart & Add to cart Experience",
+        description:
+            "Built a structured mobile cart and add to cart experience using React Native and Expo Router. Features dynamic cart state management, quantity updates, and conditional UI rendering for empty and active cart states.",
+        impact:
+            "Demonstrates real-world e-commerce cart logic, context-driven state management, dynamic pricing updates, and clean mobile UI architecture.",
+        technologies: [
+            "React Native",
+            "Expo",
+            "Expo Router",
+            "TypeScript",
+            "Context API",
+            "REST API Integration"
+        ],
+        link: "https://expo.dev/artifacts/eas/peLX4WiQkJi5MnopvF82sp.apk",
+        liveDemo: true,
+    },
     {
         title: "AirSwift Travel Guide",
         subtitle: "Interactive Flight Booking & Travel Platform",
@@ -48,7 +65,8 @@ export const projects = [
             "Tailwind CSS",
             "Vercel",
             "TypeScript",
-            "Interactive UI Design"
+            "Interactive UI Design",
+            "Redux Toolkit"
         ],
         link: "https://travel-guide-nine-topaz.vercel.app/",
         liveDemo: true,
