@@ -49,7 +49,7 @@ export const projects = [
             "Context API",
             "REST API Integration"
         ],
-        link: "https://expo.dev/artifacts/eas/peLX4WiQkJi5MnopvF82sp.apk",
+        link: "https://expo.dev/artifacts/eas/aiUxvAwZBEq3r8AjwToBTY.apk",
         liveDemo: true,
     },
     {
